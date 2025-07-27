@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Helpify.in</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="#">Explore</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <h1>Helpify.in</h1>
+    <p>"We serve all!"</p>
+    <div class="cta-buttons">
+      <a href="#" class="btn orange">Book Now</a>
+      <a href="book.html" class="btn white" onclick="showLoader(event)">Schedule</a>
+    </div>
+    <p class="desc">Need a cook, a tutor, or someone to care for your loved ones? We're here to help!</p>
+  </main>
+
+  <div id="loader" class="loader hidden">
+    <img src="../public/loading.gif" alt="Loading..." />
+  </div>
+
+  <script src="../js/loader.js"></script>
+</body>
+</html>
